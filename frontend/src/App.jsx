@@ -1,9 +1,12 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+
 function App() {
   return (
-    <div>
-      <h1>Clueso Clone</h1>
-      <p>Frontend initialized successfully.</p>
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+    </>
   );
 }
 
