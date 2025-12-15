@@ -1,11 +1,21 @@
 function Hero() {
   return (
     <section className="hero">
-      <h1>Create Product Videos in Minutes</h1>
-      <p>
-        Turn your ideas into stunning videos using AI-powered workflows.
-      </p>
-      <button className="cta-btn">Get Started Free</button>
+      <div className="hero-container">
+        <h1>
+          Create stunning <span>product videos</span> in minutes
+        </h1>
+
+        <p>
+          Record, edit, and share product videos that convert —
+          powered by AI.
+        </p>
+
+        <div className="hero-actions">
+          <button className="cta-btn">Get started free</button>
+          <button className="secondary-btn">Book a demo</button>
+        </div>
+      </div>
     </section>
   );
 }
